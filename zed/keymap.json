@@ -1,0 +1,14 @@
+[
+  {
+    "context": "vim_mode == insert",
+    "bindings": {
+      "j k": "vim::NormalBefore" // remap jk in insert mode to escape.
+    }
+  },
+{
+    "context": "vim_mode == insert",
+    "bindings": {
+      "k j": "vim::NormalBefore" // remap jk in insert mode to escape.
+    }
+  }
+]
